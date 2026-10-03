@@ -364,10 +364,73 @@ exports[`css.create() properties fontVariant 1`] = `
 }
 `;
 
-exports[`css.create() properties fontWeight 1`] = `
+exports[`css.create() properties fontWeight (dynamic values): number:100 1`] = `
+{
+  "boxSizing": "content-box",
+  "fontWeight": 100,
+  "overflow": "visible",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties fontWeight (dynamic values): number:400 1`] = `
+{
+  "boxSizing": "content-box",
+  "fontWeight": 400,
+  "overflow": "visible",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties fontWeight (dynamic values): number:900 1`] = `
+{
+  "boxSizing": "content-box",
+  "fontWeight": 900,
+  "overflow": "visible",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties fontWeight (dynamic values): string:100 1`] = `
+{
+  "boxSizing": "content-box",
+  "fontWeight": "100",
+  "overflow": "visible",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties fontWeight (dynamic values): string:400 1`] = `
+{
+  "boxSizing": "content-box",
+  "fontWeight": "400",
+  "overflow": "visible",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties fontWeight (dynamic values): string:900 1`] = `
 {
   "boxSizing": "content-box",
   "fontWeight": "900",
+  "overflow": "visible",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties fontWeight (dynamic values): string:bold 1`] = `
+{
+  "boxSizing": "content-box",
+  "fontWeight": "bold",
+  "overflow": "visible",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties fontWeight 1`] = `
+{
+  "boxSizing": "content-box",
+  "fontWeight": 900,
   "overflow": "visible",
   "position": "static",
 }
@@ -695,6 +758,38 @@ exports[`css.create() properties mixBlendMode 1`] = `
 }
 `;
 
+exports[`css.create() properties objectFit (dynamic values): cover 1`] = `
+{
+  "boxSizing": "content-box",
+  "objectFit": "cover",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties objectFit (dynamic values): none 1`] = `
+{
+  "boxSizing": "content-box",
+  "objectFit": "none",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties objectFit (dynamic values): none 2`] = `
+{
+  "boxSizing": "content-box",
+  "objectFit": "none",
+  "position": "static",
+}
+`;
+
+exports[`css.create() properties objectFit (dynamic values): scale-down 1`] = `
+{
+  "boxSizing": "content-box",
+  "objectFit": "scale-down",
+  "position": "static",
+}
+`;
+
 exports[`css.create() properties objectFit: contain 1`] = `
 {
   "ref": [Function],
@@ -733,7 +828,7 @@ exports[`css.create() properties objectFit: none 1`] = `
   "ref": [Function],
   "style": {
     "boxSizing": "content-box",
-    "objectFit": "scale-down",
+    "objectFit": "none",
     "position": "static",
   },
 }
